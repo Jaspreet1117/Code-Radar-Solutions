@@ -6,6 +6,6 @@ int main() {
     char str2[100];
     scanf("%s",&str);
     scanf("%s",&str2);
-    printf("%s", str+" and "+str2);
+    printf("You entered: %s and %s", str,str2);
     return 0;
 }
