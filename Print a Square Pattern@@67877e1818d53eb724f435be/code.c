@@ -2,9 +2,12 @@
 int main() {
     int a,i,j;
     scanf("%d",&a);
-    while(i<=a){
-        printf('*'*i);
+    for (i=1;i<=a;i++){
+        for (j=1;i<=a;j++){
+            printf('*');
         
+        }
+        printf("\n");
     }
     return 0;
 }
