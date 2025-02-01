@@ -6,5 +6,8 @@ int main(){
     if (ch=='+'){
         printf("%d",a+b);
     }
+    else{
+        printf("nit");
+    }
     return 0;
 }
