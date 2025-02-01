@@ -2,7 +2,7 @@
 int main(){
     int num1,num2;
     char ch;
-    scanf("%d %d %c",&num1,&num2,&num3);
+    scanf("%d %d %c",&num1,&num2,&ch);
     if (ch=='+'){
         printf("%d",a+b);
     }
