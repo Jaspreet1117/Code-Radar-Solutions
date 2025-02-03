@@ -11,7 +11,7 @@ int main(){
             }
         else{
             printf("%d ",second);
-            second=0?second=1:second=2;
+           /* second=0?second=1:second=2;*/
             }}
     
         printf("\n");
