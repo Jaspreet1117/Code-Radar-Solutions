@@ -10,7 +10,7 @@ int main(){
             printable=0;
             }
         else{
-            printf("%d",second);
+            printf("%d ",second);
             second=1;
             }}
     
