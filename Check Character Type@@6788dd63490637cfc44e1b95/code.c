@@ -4,7 +4,7 @@
 int main() {
     char ch;
     scanf("%c",&ch);
-    if(ch==a ||ch==e ||ch==i ||ch==I ||ch==O || ch=o ||ch=u ||ch==U || ch==A || ch==E){
+    if(ch==a ||ch==e ||ch==i ||ch==I ||ch==O || ch==o ||ch==u ||ch==U || ch==A || ch==E){
         printf("Vowel");
     }/*
     else if (ch==0 && ch<=9){printf("Digit");}
