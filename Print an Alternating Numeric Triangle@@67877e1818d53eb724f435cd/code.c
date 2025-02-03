@@ -13,8 +13,8 @@ int main(){
             }*/
         else{
             printf("%d ",second);
-            if(second==0){second=1;}
-            else{second=2;}
+            /*if(second==0){second=1;}
+            else{second=2;}*/
             }}
     
         printf("\n");
