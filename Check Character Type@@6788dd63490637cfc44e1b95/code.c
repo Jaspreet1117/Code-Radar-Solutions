@@ -8,6 +8,6 @@ int main() {
         printf("Vowel");
     }
     else if (ch==0 && ch<=9){printf("Digit");}
-    else if (ch=='!' || ch=='@'||ch=='#' || ch=='$' || ch=='%' || ch=='^' || ch==' ' || ch=='&' || ch=='(' || ch==')' ||ch=='*' ||ch ='+' ){printf("Special Character");}
+    else if (ch=='!' || ch=='@'||ch=='#' || ch=='$' || ch=='%' || ch=='^' || ch==' ' || ch=='&' || ch=='(' || ch==')' ||ch=='*' ||ch=='+' ){printf("Special Character");}
 else{printf("Consonant");}    return 0;
 }
