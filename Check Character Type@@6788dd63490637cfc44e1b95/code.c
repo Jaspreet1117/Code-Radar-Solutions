@@ -4,10 +4,10 @@
 int main() {
     char ch;
     scanf("%c",&ch);
-    if(ch=='a' ||ch=='e' ||ch=='i' ||ch=='I' ||ch=='O' || ch=='o' ||ch=='u' ||ch=='U' || ch=='A' || ch=='E'){
+    if(isalpha(ch)){
+    if(ch=='a' ||ch=='e' ||ch=='i' || ch=='o' ||ch=='u'){
         printf("Vowel");
-    }
-    else if ((int)ch>=0 && (int)ch<=9){printf("Digit");}
-    else if (ch=='!' || ch=='@'||ch=='#' || ch=='$' || ch=='%' || ch=='^' || ch==' ' || ch=='&' || ch=='(' || ch==')' ||ch=='*' ||ch=='+' ){printf("Special Character");}
-else{printf("Consonant");}   return 0;
+    }else{printf("Consonant");}}
+    else if (isdigit(ch)){printf("Digit");}
+    else{printf("Special Character");}   return 0;
 }
