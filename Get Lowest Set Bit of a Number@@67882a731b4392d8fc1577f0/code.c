@@ -5,12 +5,12 @@ int main() {
     unsigned int number;
     int result=1;
 
-    scanf("%d",&number);
+    scanf("%u",&number);
    while(!(number & 1)){
     number >>=1;
     result++;
 
    }
-   printf("%d",result);
+   printf("%u",result);
     return 0;
 }
