@@ -5,9 +5,9 @@ char* welcome() {
 }
 
 int main() {
-    int number,low;
-    scanf("%d",&number);
+     unsigned int number,low;
+    scanf("%u",&number);
     low=number & -number;
-    pritnf("%d",low);
+    pritnf("%u",low);
     return 0;
 }
