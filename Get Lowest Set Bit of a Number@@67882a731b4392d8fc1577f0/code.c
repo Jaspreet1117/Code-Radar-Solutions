@@ -11,6 +11,6 @@ int main() {
     result++;
 
    }
-   printf("%u",result);
+   printf("%d",result);
     return 0;
 }
