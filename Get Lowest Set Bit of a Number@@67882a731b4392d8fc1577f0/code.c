@@ -2,9 +2,15 @@
 
 
 int main() {
-     int number,low;
+    unsigned int number;
+    int result=1;
+
     scanf("%d",&number);
-    low= number & -number;
-    printf("%d",low);
+   while(!(number & 1)){
+    number >>=1;
+    result++;
+
+   }
+   printf("%d",result);
     return 0;
 }
