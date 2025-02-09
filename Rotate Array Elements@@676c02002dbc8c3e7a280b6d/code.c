@@ -5,6 +5,6 @@ int main() {
     int input;
     int arr[input];
     scanf("%d",arr);
-    printf(arr);
+    printf(arr[input]);
     return 0;
 }
