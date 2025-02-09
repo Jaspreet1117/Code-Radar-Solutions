@@ -8,10 +8,10 @@ int main(){
         break;
         case '-':printf("%d",num1-num2);
         break;
-       case '*':printf("%d",num1*num2);
+        case '*':printf("%d",num1*num2);
         break;
-        case '/':printf("%d",num1/num2);
-        break;
+       /* case '/':printf("%d",num1/num2);
+        break;*/
         default:printf("error");
     }
     
