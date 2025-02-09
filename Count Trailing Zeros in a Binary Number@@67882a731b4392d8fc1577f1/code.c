@@ -6,9 +6,9 @@ char* welcome() {
 
 int main() {
 
-int number,count;
-scanf("%d",&number);
-while (number>0 && (number&1)==0){
+    int number,count;
+    scanf("%d",&number);
+    while(number >0 && (number & 1)==0){
     count++;
     number>>=1;
 
