@@ -12,7 +12,7 @@ int main() {
     count++;
     number >>= 1;
 
-}4
+}
 printf("%d",count);
     return 0;
 }
