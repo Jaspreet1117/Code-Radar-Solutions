@@ -10,7 +10,7 @@ int main() {
     scanf("%d",&number);
     while(number >0 && (number & 1)==0){
     count++;
-    number>>=1;
+    number >>= 1;
 
 }4
 printf("%d",count);
