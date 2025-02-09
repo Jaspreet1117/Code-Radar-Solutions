@@ -13,5 +13,8 @@ int main() {
     else if (side1==side2 || side2==side3 || side3==side1){
         printf("Isosceles");
     }
+    else {
+        printf("Scalene");
+    }
     return 0;
 }
