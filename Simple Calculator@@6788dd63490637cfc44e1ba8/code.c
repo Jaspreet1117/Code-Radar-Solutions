@@ -7,8 +7,9 @@ int main(){
     if(ch=='+'){printf("%d",num1+num2);}
     else if(ch=='-'){printf("%d",num1-num2);}
    else if(ch=='*'){printf("%d",num1*num2);}
-   /* else(ch=='/'){if(num2!=0){printf("%d",num1/num2);}
-                 else {printf("error");}}*/
+   else(ch=='/'){
+    if(num2!=0){printf("%d",num1/num2);}
+   else{printf("error");}}*/
     
     return 0;
 }
