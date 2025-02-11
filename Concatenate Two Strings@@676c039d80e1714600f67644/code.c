@@ -3,7 +3,7 @@
 #include <string.h>
 int main(){
     char str[100],str1[100];
-    scanf("%s%s",str1,str2);
-    printf("%s%s",str1,str2);
+    scanf("%s%s",str,str1);
+    printf("%s%s",str,str1);
     return 0;
 }
