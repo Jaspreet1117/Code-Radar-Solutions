@@ -2,6 +2,6 @@
 
 
 int main() {
-    printf("%s", welcome());
+   hjbh;
     return 0;
 }
