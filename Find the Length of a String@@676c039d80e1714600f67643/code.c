@@ -4,7 +4,7 @@
 int main(){
    char str[100];
     scanf("%s",str);
-   int length = lenstr(str);
+   int length = strlen(str);
    /* printf("%d",length);*/
     return 0;
 }
