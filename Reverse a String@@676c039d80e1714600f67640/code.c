@@ -1,10 +1,11 @@
 #include <stdio.h>
-
+#include <string.h>
 
 int main() {
     char str[90];
     scanf("%s",str);
-    for (int i=89;i>=0;i--){
+    int  len = strlen(str);
+    for (int i=len-1;i>=0;i--){
         printf("%c",str[i]);
     }
     return 0;
