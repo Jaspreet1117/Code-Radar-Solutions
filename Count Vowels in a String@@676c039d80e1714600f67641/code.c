@@ -3,7 +3,7 @@
 
 int main() {
     int str[90];
-    scanf("%s",str);
+    scanf("%s",&str);
     int len = strlen(str);
     int count=0;
     for(int i =0;i<len;i++){
