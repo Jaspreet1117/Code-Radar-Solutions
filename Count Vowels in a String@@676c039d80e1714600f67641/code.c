@@ -10,7 +10,7 @@ int main() {
         if(str[i]=='a' || str[i]=='e' || str[i]=='u' || str[i]=='o' || str[i]=='I' || str[i]=='i'|| str[i]=='U' || str[i]=='A' || str[i]=='E' || str[i]=='O'){
               count++;
         }
-    }*/
+    }
     printf("%d",count);*/
     return 0;
 }
