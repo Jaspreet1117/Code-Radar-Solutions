@@ -7,12 +7,13 @@ void main(){
     for (int i =0;i<input;i++){
         scanf("%d",&arr[i]);
     }
+    scanf("%d",&number);
     for(int j=0;j<input;j++){
-        if(number==arr[j]){printf("b");
-           /* printf("bjhb%d",j);*/
+        if(number==arr[j]){
+           printf("bjhb%d",j);
             var=1;
         }
     }
-    /*if(var==0){
-    printf("%d",-1);}*/
+    if(var==0){
+    printf("%d",-1);}
 }
