@@ -13,4 +13,5 @@ void main(){
         sum=sum+r;
         arr[j]=arr[j]/10;
     }printf("%d ",sum);
+    sum=0;
 }}
