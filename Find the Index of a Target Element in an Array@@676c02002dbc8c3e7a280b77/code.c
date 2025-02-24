@@ -10,7 +10,7 @@ void main(){
     scanf("%d",&number);
     for(int j=0;j<input;j++){
         if(number==arr[j]){
-           printf("bjhb%d",j);
+           printf("%d",j);
             var=1;
         }
     }
