@@ -9,7 +9,7 @@ void main(){
     }
     for (int j=0;j<input;j++){
         if (number==arr[j]){
-            printf("%d",j);
+            printf("bjhb%d",j);
             var=1;
         }
     }
