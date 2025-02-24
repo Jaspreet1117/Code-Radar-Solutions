@@ -14,6 +14,6 @@ void main(){
         arr[j]=arr[j]/10;
     }if(sum>0)printf("%d ",sum);
     else{sum=sum*-1;
-    printf("%d",sum);}
+    printf("%d ",sum);}
     sum=0;
 }}
