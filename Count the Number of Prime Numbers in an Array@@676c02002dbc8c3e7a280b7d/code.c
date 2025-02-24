@@ -2,7 +2,9 @@
 #include<stdio.h>
 void main(){
     int input,count=0;
+    
     scanf("%d",&input);
+    int arr[input];
     for (int i=0;i<input;i++){
         scanf("%d",&arr[i]);
     }
