@@ -11,8 +11,7 @@ void main(){
     for (int j=input-number;j<number;j++){
         printf("%d ",arr[j]);
 
-    }
-    for(int k=0;k<number;k++){
+    }for(int k=0;k<number;k++){
         printf("%d ",arr[k]);
     }
 }
