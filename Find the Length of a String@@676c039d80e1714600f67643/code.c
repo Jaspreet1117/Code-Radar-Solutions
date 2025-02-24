@@ -6,7 +6,6 @@ int main(){
    char str[100];
     scanf("%s",str);
    int length = strlen(str);
-   for (int i=0;i<length;i++){count++;}
-   printf("%d",count);
+   printf("%d",length);
     return 0;
 }
