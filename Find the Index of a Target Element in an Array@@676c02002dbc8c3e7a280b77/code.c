@@ -12,6 +12,7 @@ void main(){
         if(number==arr[j]){
            printf("%d",j);
             var=1;
+            break;
         }
     }
     if(var==0){
