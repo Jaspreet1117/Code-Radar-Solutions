@@ -2,7 +2,7 @@
 #include<limits.h>
 
 int main() {
-    int min,max;
+    int min,max,input;
     scanf("%d",&input);
     int arr[input];
 
