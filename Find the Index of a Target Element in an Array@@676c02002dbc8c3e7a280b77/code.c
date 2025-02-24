@@ -13,6 +13,6 @@ void main(){
             var=1;
         }
     }
-    if(var==0){
-    printf("%d",-1);}
+    /*if(var==0){
+    printf("%d",-1);}*/
 }
