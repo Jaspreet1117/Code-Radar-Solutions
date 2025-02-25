@@ -9,9 +9,9 @@ void main(){
     scanf("%d",&number);
     n=input-number;
     for (int j=n;j<input;j++){
-        printf("%d ",arr[j]);
+        printf("%d\n",arr[j]);
 
     }for(int k=0;k<n;k++){
-        printf("%d ",arr[k]);
+        printf("%d\n",arr[k]);
     }
 } 
