@@ -18,10 +18,10 @@ void main(){
         }
     }
     
-    }
+    
     if(sort==1){
         printf("Sorted");
     }
     else{
         printf("Not Sorted");
-}
+}}
