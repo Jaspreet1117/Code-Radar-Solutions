@@ -23,7 +23,7 @@ void main(){
         }
     }
     
-    if(input!=1){printf("%d",smax);}
+    if(input!=1 && arr[0]!=arr[1]){printf("%d",smax);}
     /*if(max==arr[0]==arr[1]){printf("%d",-1);}*/
     else if(arr[0]==arr[1]){
         printf("%d",-1);
