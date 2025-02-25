@@ -11,6 +11,7 @@ void main(){
     for(int i =0;i<input;i++){
         if (arr[i]<=arr[i+1]){
             sort=1;
+            break;
         }
         else{
             sort=0;
