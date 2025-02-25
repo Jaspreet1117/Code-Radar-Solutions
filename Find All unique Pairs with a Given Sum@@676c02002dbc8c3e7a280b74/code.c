@@ -13,7 +13,7 @@ void main(){
     for(int i=0;i<input;i++){
         for (int j=i;j<input;j++){
             if(arr[i]+arr[j]==sum){
-                printf("%d %d",arr[i],arr[j])
+                printf("%d %d",arr[i],arr[j]);
             }
         }
     }
