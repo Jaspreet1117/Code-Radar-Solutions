@@ -2,20 +2,18 @@
 #include<stdio.h>
 void main(){
     int input;
-    int sort=0;
+    int sort=1;
     scanf("%d",&input);
     int arr[input];
     for(int i=0;i<input;i++){
         scanf("%d",&arr[i]);
     }
-    for(int i =0;i<input;i++){
-        if (arr[i]<=arr[i+1]){
-            sort=1;
+    for(int i =0;i<input-1;i++){
+        if(arr[i]>arr[i+1]){
+            sort=0;
             break;
         }
-        else{
-            sort=0;
-        }
+        
     }
     
     
