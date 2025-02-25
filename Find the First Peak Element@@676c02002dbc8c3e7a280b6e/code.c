@@ -22,6 +22,7 @@ void main(){
         }
         if(arr[0]==arr[1]){
             printf("%d",-1);
+            break;
         }
         else{continue;}
     }
