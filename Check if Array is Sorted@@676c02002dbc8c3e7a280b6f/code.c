@@ -5,7 +5,7 @@ void main(){
     int sort=0;
     scanf("%d",&input);
     int arr[input];
-    for(int i =0;i<input;i++){
+    for(int i=0;i<input;i++){
         scanf("%d",&arr[i]);
     }
     for(int i =0;i<input;i++){
@@ -17,10 +17,11 @@ void main(){
             sort=0;
         }
     }
+    
+    }
     if(sort==1){
         printf("Sorted");
     }
     else{
         printf("Not Sorted");
-    }
 }
