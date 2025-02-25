@@ -22,7 +22,8 @@ void main(){
             smax=arr[i];
         }
     }
-    if(input!=1 || max==arr[0]==arr[1])printf("%d",smax);
+    if(input!=1)printf("%d",smax);
+    if(max==arr[0]==arr[1]){printf("%d",-1);}
     else{
         printf("%d",-1);
     }
