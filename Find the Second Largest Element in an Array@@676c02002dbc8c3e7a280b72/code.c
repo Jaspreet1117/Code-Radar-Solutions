@@ -22,6 +22,6 @@ void main(){
             smax=arr[i];
         }
     }
-    print("%d",smax);
+    printf("%d",smax);
 
 }
