@@ -9,7 +9,7 @@ void main(){
     }
     for(int i=1;i<input;i++){
         if(arr[i-1]>arr[i] && arr[i]>arr[i+1]){
-            printf("%d",arr[i]);
+            printf("%d",arr[i-1]);
             break;
         }
         else{continue;}
