@@ -20,6 +20,9 @@ void main(){
             printf("%d",arr[i-1]);
             break;
         }
+        if(arr[0]==arr[1]){
+            printf("%d",arr[0]);
+        }
         else{continue;}
     }
 }
