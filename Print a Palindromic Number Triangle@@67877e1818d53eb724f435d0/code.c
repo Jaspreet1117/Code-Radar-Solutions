@@ -3,7 +3,7 @@
 
 
 int main() {
-    int number;
+    int number,print=1;
     scanf("%d",&number);
     for(int i=1;i<=number;i++){
         for(int j=number-i;j>0;j--){
@@ -13,9 +13,11 @@ int main() {
             printf("%d",k);
         }
         for(int m=2;m<i;m++){
-            printf("%d",m-1);
+            printf("%d",print);
+            print=print-1;
         }
         printf("\n");
+        print+=1;
     }
     
     return 0;
