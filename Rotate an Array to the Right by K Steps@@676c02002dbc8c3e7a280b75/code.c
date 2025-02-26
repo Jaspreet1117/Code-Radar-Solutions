@@ -11,7 +11,7 @@ void main(){
     number=number%input;
      for (int i = 0; i < number / 2; i++) {
         int temp = arr[i];
-        arr[i] = arr[k - i - 1];
+        arr[i] = arr[number - i - 1];
         arr[number - i - 1] = temp;
     }
     for (int i = number; i < (n + number) / 2; i++) {
