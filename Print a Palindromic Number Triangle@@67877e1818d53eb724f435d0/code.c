@@ -12,12 +12,10 @@ int main() {
         for(int k=1;k<=i;k++){
             printf("%d",k);
         }
-        for(int m=2;m<=i;m++){
-            printf("%d",print);
-            print=print-2;
+        for(int m=i-1;m>=i;m--){
+            printf("%d",m);
         }
         printf("\n");
-        print+=1;
     }
     
     return 0;
