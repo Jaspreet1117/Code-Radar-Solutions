@@ -14,11 +14,8 @@ void main(){
     }
     for(int k=0;k<input;k++){
         for(int l=0;l<input;l++){
-            if(arr[k]==brr[l]){
-                 palidrome=1;
-            }
-            else{
-                palidrome=0;
+            if(arr[k]!=brr[l]){
+                 palidrome=0;
             }
         }
     }
