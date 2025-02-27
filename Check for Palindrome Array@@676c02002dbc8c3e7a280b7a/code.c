@@ -22,5 +22,5 @@ void main(){
             }
         }
     }
-    palidrome?printf("Yes"):printf("NO");
+    palidrome?printf("YES"):printf("NO");
 }
