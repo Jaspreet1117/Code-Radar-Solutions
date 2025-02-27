@@ -9,9 +9,10 @@ void main(){
         scanf("%d",&arr[i]);
     }
     int brr[input];
+    for(int i=0;i<input;i++){
     for(int j=input-1;j>=0;j--){
-        brr[j]=arr[j];
-    }
+        brr[j]=arr[i];
+    }}
     for(int k=0;k<input;k++){
         if(arr[k]!=brr[k]){
                 palidrome=0;
