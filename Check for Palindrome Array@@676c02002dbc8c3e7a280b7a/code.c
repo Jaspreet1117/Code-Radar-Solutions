@@ -9,13 +9,13 @@ void main(){
         scanf("%d",&arr[i]);
     }
     int brr[input];
-    for(int j=0;j<input;j++){
+    for(int j=input;j>0;j--){
         brr[j]=arr[j];
     }
     for(int k=0;k<input;k++){
         if(arr[k]!=brr[k]){
-                 palidrome=0;
-                 break;
+                palidrome=0;
+                break;
             }
         }
     
