@@ -15,6 +15,7 @@ void main(){
     for(int k=0;k<input;k++){
         if(arr[k]!=brr[k]){
                  palidrome=0;
+                 break;
             }
         }
     
