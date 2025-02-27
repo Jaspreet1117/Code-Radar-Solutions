@@ -8,18 +8,11 @@ void main(){
         scanf("%d",&arr[i]);
     }
     scanf("%d",&number);
-    number=number%input;
-     for (int i = 0; i < number / 2; i++) {
-        int temp = arr[i];
-        arr[i] = arr[number - i - 1];
-        arr[number - i - 1] = temp;
-    }
-    for (int i = number; i < (n + number) / 2; i++) {
-        int temp = arr[i];
-        arr[i] = arr[input + number - i - 1];
-        arr[input + number - i - 1] = temp;
-    }
-    for (int i = 0; i < input; i++) {
-        printf("%d ", arr[i]);
+    number=input%number;
+    for (int j=n-input;j<input;j++){
+        printf("%d\n",arr[j]);
+
+    }for(int k=0;k<n;k++){
+        printf("%d\n",arr[k]);
     }
 } 
