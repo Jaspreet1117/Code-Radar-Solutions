@@ -18,6 +18,8 @@ void main(){
                 break;
             }
         }
+        printf(arr);
+        printf(brr);
     
     palidrome?printf("YES"):printf("NO");
 }
