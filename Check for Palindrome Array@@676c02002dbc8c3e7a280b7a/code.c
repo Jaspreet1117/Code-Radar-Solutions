@@ -9,7 +9,7 @@ void main(){
         scanf("%d",&arr[i]);
     }
     int brr[input];
-    for(int i=input-1;i>=0;i++){
+    for(int i=input-1;i>=0;i--){
         brr[i]=arr[n];
         n++;
     }
