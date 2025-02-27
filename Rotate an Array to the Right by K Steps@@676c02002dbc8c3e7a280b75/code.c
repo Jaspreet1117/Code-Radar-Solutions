@@ -9,7 +9,7 @@ void main(){
     }
     scanf("%d",&number);
     number=input%number;
-    for (int j=n-input;j<input;j++){
+    for (int j=n-input;j<input;j--
         printf("%d\n",arr[j]);
 
     }for(int k=0;k<n;k++){
