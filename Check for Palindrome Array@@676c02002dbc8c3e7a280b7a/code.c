@@ -8,6 +8,7 @@ void main(){
     for(int i=0;i<input;i++){
         scanf("%d",&arr[i]);
     }
+    int brr[input];
     for(int i=input-1;i>=0;i++){
         brr[i]=arr[n];
         n++;
