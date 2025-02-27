@@ -13,11 +13,10 @@ void main(){
         brr[j]=arr[j];
     }
     for(int k=0;k<input;k++){
-        for(int l=0;l<input;l++){
-            if(arr[k]!=brr[l]){
+        if(arr[k]!=brr[k]){
                  palidrome=0;
             }
         }
-    }
+    
     palidrome?printf("YES"):printf("NO");
 }
