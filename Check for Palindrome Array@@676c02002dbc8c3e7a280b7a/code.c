@@ -19,9 +19,6 @@ void main(){
                 break;
             }
         }
-        for(int i=0;i<input;i++){
-            printf("%d %d\n",arr[i],brr[i]);
-        }
-    
+        
     palidrome?printf("YES"):printf("NO");
 }
