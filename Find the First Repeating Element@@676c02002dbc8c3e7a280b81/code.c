@@ -8,7 +8,7 @@ void main(){
         scanf("%d",&arr[i]);
     }
     for(int j=0;j<input;j++){
-        for(int k=j;k<input;k++){
+        for(int k=j+1;k<input;k++){
             if(arr[j]==arr[k]){
                 printf("%d",arr[j]);
                 break;
