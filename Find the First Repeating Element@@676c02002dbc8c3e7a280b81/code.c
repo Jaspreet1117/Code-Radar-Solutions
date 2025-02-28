@@ -11,11 +11,11 @@ void main(){
     for(int j=0;j<input;j++){
         for(int k=j+1;k<input;k++){
             if(arr[j]==arr[k]){
+                printf("%d",arr[j]);
                 found=1;
                 break;
             }
         }
         if(found){break;}
-    }
-    found?printf(arr[j]):printf("%d",-1);
+    }if(!found){printf("%d",-1);}
 }
