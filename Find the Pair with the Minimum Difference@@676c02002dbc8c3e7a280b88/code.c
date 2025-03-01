@@ -9,7 +9,7 @@ void main(){
     for(int i=0;i<number;i++){
         scanf("%d",&arr[number]);
     }
-    int diff=INT_MAX;
+    int diff=arr[i];
     for(int i=0;i<number;i++){
         for(int j=i+1;j<number;j++){
             if(diff>arr[i]-arr[j]){
