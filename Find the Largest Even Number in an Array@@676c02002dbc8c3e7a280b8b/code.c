@@ -14,11 +14,13 @@ void main(){
             if(largest<arr[i]){
                 largest=arr[i];
             }
-        else if(arr[i]%2!=0){
-            largest==-1;
-            }
+       
         }
     }
-    printf("%d",largest);
+    if(largest==INT_MIN){
+    printf("%d",-1;)}
+    else{
+        pritnf("%d",largest);
+    }
     
 }
