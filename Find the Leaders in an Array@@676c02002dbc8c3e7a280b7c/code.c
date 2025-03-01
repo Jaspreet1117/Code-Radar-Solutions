@@ -15,7 +15,6 @@ void main(){
             printf("%d ",arr[i]);
         }
     }
-
-    printf("%d ",arr[number]);
+    printf("%d ",arr[number-1]);
 
 }
