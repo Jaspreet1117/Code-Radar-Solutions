@@ -17,10 +17,11 @@ void main(){
             max=arr[i];
         }
         else if(number==1){
-            printf("%d",-1);
+            smax=-1;
         }
         else if(smax<arr[i] && max!=arr[i]){
             smax=arr[i];
         }
     }
+    printf("%d",-1);
 }
