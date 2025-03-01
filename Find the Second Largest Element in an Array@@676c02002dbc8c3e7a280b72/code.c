@@ -4,7 +4,7 @@
 #include <limits.h>
 void main(){
     int number;
-    int max=-1;
+    int max=0;
     int smax=-1;
     scanf("%d",&number);
     int arr[number];
