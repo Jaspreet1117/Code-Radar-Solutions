@@ -14,7 +14,7 @@ void main(){
                 rightmax=arr[j];
                 break;
             }
-            arr[i]=rightmax
+            arr[i]=rightmax;
         }}
         for(int i=0;i<number;i++){
         printf("%d",rightmax);}
