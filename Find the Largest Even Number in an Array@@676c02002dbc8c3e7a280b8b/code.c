@@ -20,7 +20,7 @@ void main(){
     if(largest==INT_MIN){
     printf("%d",-1);}
     else{
-        pritnf("%d",largest);
+        printf("%d",largest);
     }
     
 }
