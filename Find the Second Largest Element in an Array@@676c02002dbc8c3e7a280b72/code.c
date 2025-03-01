@@ -5,7 +5,7 @@
 void main(){
     int number;
     int max=0;
-    int smax=-1;
+    int smax=0;
     scanf("%d",&number);
     int arr[number];
     for(int i=0;i<number;i++){
