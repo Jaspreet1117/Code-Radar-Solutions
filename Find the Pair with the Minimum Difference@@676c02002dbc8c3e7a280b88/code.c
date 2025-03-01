@@ -1,6 +1,7 @@
 // Your code here...
 //minmum difference pair
 #include <stdio.h>
+#include <limits.h>
 void main(){
     int number,num1,num2;
     scanf("%d",&number);
