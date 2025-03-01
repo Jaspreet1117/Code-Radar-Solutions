@@ -7,7 +7,7 @@ void main(){
     for(int i=0;i<number;i++){
         scanf("%d",&arr[i]);
     }
-    if(arr[0]>arr[1] && ){
+    if(arr[0]>arr[1] ){
             printf("%d ",arr[0]);
         }
     for(int i=1;i<number;i++){
