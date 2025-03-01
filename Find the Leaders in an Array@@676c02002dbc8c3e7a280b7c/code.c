@@ -17,7 +17,7 @@ void main(){
        
         
 
-    }if(arr[number]>arr[number-1]){
+    }if(arr[number]){
             printf("%d ",arr[number]);
         }
 }
