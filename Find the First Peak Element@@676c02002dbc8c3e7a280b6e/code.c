@@ -15,10 +15,6 @@ void main(){
             break;
         }
     }
-    if (peak=0){
-        printf("%d",-1);
-    }
-    else{
-        printf("%d",peak);
-    }
+     printf("%d",peak);
+    
 }
