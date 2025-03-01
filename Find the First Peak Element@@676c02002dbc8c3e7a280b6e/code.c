@@ -1,5 +1,6 @@
 // Your code here...
 #include"stdio.h"
+//#include <limits.h>
 void main(){
     int input;
     scanf("%d",&input);
@@ -7,5 +8,10 @@ void main(){
     for(int i=0;i<input;i++){
         scanf("%d",&arr[i]);
     }
-    int peak=arr[0];
+    for(int i=1;i<input;i++){
+        if(arr[i-1]<arr[i] && arr[i]>arr[i+1]){
+            printf("%d",arr[i]);
+            break;
+        }
+    }
 }
