@@ -8,17 +8,12 @@ void main() {
     for (int i = 0; i < number; i++) {
         scanf("%d", &arr[i]);
     }
-    for (int i = 0; i < number; i++) {
-        int maxRight = -1;
-        for (int j = i + 1; j < number; j++) {
-            if (arr[j] > arr[i]) {
-                maxRight = arr[j];
-                break;
+    int brr[number];
+    for(int i=0;i<number;i++){
+        for(int j=i+1;j<number;j++){
+            if(arr[i]<arr[j]){
+                brr[i]=arr[j];
             }
         }
-        arr[i] = maxRight;
-    }
-    for (int i = 0; i < number; i++) {
-        printf("%d ", arr[i]);
     }
 }
