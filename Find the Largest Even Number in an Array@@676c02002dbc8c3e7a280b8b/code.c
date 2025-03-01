@@ -14,7 +14,9 @@ void main(){
             if(largest<arr[i]){
                 largest=arr[i];
             }
-        else{largest==-1;}
+        else if(arr[i]%2!=0){
+            largest==-1;
+            }
         }
     }
     printf("%d",largest);
