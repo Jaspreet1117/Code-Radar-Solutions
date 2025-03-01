@@ -4,8 +4,8 @@
 #include <limits.h>
 void main(){
     int number;
-    max=INT_MIN;
-    smax=INT_MIN;
+    int max=INT_MIN;
+    int smax=INT_MIN;
     scanf("%d",&number);
     int arr[number];
     for(int i=0;i<number;i++){
@@ -20,4 +20,5 @@ void main(){
             smax=arr[i];
         }
     }
+    printf("%d",smax);
 }
