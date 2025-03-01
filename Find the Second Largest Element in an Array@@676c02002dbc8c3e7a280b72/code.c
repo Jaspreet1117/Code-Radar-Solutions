@@ -12,12 +12,12 @@ void main(){
         scanf("%d",&arr[i]);
     }
     for(int j=0;j<number;j++){
-        if(max<arr[i] && max!=arr[i]){
+        if(max<arr[j] && max!=arr[j]){
             smax=max;
-            max=arr[i];
+            max=arr[j];
         }
         else if{
-            smax=arr[i];
+            smax=arr[j];
         }
     }
     printf("%d",smax);
