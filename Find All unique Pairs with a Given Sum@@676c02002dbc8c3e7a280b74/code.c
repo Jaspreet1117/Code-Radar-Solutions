@@ -16,9 +16,10 @@ void main(){
                 printf("%d %d\n",arr[i],arr[j]);
                 break;
             }
-            else if(arr[i]+arr[j]==sum){
+            else if(arr[i]+arr[j]==sum && arr){
                 printf("%d %d\n",arr[i],arr[j]);
             }
+            break;
         }
     }
 }
