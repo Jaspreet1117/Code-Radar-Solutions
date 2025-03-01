@@ -12,7 +12,7 @@ void main(){
     int diff=INT_MAX;
     for(int i=0;i<number;i++){
         for(int j=i+1;j<number;j++){
-            if(diff<arr[i]-arr[j]){
+            if(diff>arr[i]-arr[j]){
                 diff=arr[i]-arr[j];
                 num1=arr[i];
                 num2=arr[j];
