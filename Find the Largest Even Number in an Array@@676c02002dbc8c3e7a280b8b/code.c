@@ -18,7 +18,7 @@ void main(){
         }
     }
     if(largest==INT_MIN){
-    printf("%d",-1;)}
+    printf("%d",-1);}
     else{
         pritnf("%d",largest);
     }
