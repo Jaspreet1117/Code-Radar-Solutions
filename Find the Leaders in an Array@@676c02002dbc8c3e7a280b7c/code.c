@@ -11,7 +11,7 @@ void main(){
             printf("%d ",arr[0]);
         }
     for(int i=1;i<number;i++){
-        if(arr[i-1]<arr[i] && arr[i]>arr[i+1]){
+        if(arr[i-1]<=arr[i] && arr[i]>=arr[i+1]){
             printf("%d ",arr[i]);
         }
     }
