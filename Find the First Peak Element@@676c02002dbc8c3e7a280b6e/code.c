@@ -9,7 +9,7 @@ void main(){
     }
     for(int i=0;i<input;i++){
         for (int j=i+1;j<input;j++){
-            if(arr[i]>arr[j] && arr[i-1]<arr[i]){
+            if((i == 0 || arr[i] > arr[i - 1]) && (i == input - 1 || arr[i] > arr[i + 1])){
                 printf("%d ",arr[i]);
                 break;
             }
