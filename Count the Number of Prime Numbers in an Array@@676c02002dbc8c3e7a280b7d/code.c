@@ -17,11 +17,12 @@ void main(){
                if(arr[i]!=2){
                 prime=0;
             }
-        }
+        }}
         if(prime==1){
             count+=1;
         }
 
-    }
+    
     printf("%d",count);
-}}
+}
+}
