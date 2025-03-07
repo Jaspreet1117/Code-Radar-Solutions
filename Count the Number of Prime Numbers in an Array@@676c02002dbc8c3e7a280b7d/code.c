@@ -12,7 +12,7 @@ void main(){
     for(int i=0;i<input;i++){
         if(arr[i]<=1){prime=0;
         }
-        for(int j=2;j=arr[i]-2;j++){
+        for(int j=2;j<arr[i]-1;j++){
             if(arr[i]%j==0){
                if(arr[i]!=2){
                 prime=0;
