@@ -2,6 +2,7 @@
 #include<stdio.h>
 void main(){
     int input,count=0;
+    int prime=1;
     
     scanf("%d",&input);
     int arr[input];
@@ -9,15 +10,15 @@ void main(){
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<input;i++){
-        if(arr[i]<=1){count+=0;
+        if(arr[i]<=1){prime=0;
         }
         for(int j=2;j<input-2;j++){
             if(arr[i]%j==0){
-                count+=0;
+                prime=0;
             }
-            else{
-                count+=1;
-            }
+        }
+        if(prime==1){
+            count+=1;
         }
 
     }
