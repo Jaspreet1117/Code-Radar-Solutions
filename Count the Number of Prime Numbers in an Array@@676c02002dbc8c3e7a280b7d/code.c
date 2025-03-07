@@ -11,7 +11,7 @@ void main(){
     for(int i=0;i<input;i++){
         if(arr[i]<=1){count+=0;
         }
-        for(int j=2;j<input-2;i++){
+        for(int j=2;j<input-2;j++){
             if(arr[i]%2==0){
                 count+=0;
             }
