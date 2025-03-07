@@ -14,7 +14,7 @@ void main(){
         }
         for(int j=2;j<input-2;j++){
             if(arr[i]%j==0){
-            if(arr[i]!=2){
+               if(arr[i]!=2){
                 prime=0;
             }
         }
@@ -24,4 +24,4 @@ void main(){
 
     }
     printf("%d",count);
-}
+}}
