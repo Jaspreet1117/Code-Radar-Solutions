@@ -9,6 +9,9 @@ int isPrime(int num){
             if(num%i==0){
                 prime=0;
             }
+            else {
+                prime=1;
+            }
         }
     }
 }
