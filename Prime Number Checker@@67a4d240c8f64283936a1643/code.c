@@ -1,23 +1,14 @@
-#include <stdio.h>
-
-
-
-int main() {
-    int isPrime(num){
-        for (int pr=2;pr<=num-1;pr++){
-            if(num%pr==0){
-                break;
+int isPrime(int num){
+    int prime=1;
+    if(num=1){
+        prime=0;
+        return;
+    }
+    else{
+        for(int i=2;i<=num-1;i++){
+            if(num%i==0){
+                prime=0;
             }
-            else{printf("hjv");}
         }
     }
-    int t;
-    scanf("%d",&t);
-    while(t--){
-        int num;
-        scanf("%d",&num);
-        printf("%d\n",isPrime(num));
-
-    }
-    return 0;
 }
