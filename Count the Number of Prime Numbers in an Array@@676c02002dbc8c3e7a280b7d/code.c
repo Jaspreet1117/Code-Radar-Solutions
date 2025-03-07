@@ -12,7 +12,7 @@ void main(){
         if(arr[i]<=1){count+=0;
         }
         for(int j=2;j<input-2;j++){
-            if(arr[i]%2==0){
+            if(arr[i]%j==0){
                 count+=0;
             }
             else{
