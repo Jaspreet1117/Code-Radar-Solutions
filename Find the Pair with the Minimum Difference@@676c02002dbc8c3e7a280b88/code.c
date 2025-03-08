@@ -13,10 +13,6 @@ void main(){
     int diff=INT_MAX;
     
     for(int i=0;i<number;i++){
-        if(number==1){
-        printf("-1");
-        break;
-    }
         for(int j=i+1;j<number;j++){
             if(diff>abs(arr[i]-arr[j]) && i!=j){
                 diff=abs(arr[i]-arr[j]);
@@ -25,6 +21,8 @@ void main(){
             }
         }
     }
-    num1>num2?printf("%d %d",num2,num1):printf("%d %d",num1,num2);
+    if(num1>num2)printf("%d %d",num2,num1);
+    else if(num1==num2){printf("-1");}
+    else{printf("%d %d",num1,num2);}
 
 }
