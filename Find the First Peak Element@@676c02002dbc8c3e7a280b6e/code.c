@@ -1,20 +1,26 @@
 // Your code here...
-#include"stdio.h"
+#include <stdio.h>
 void main(){
-    int input;
-    int print=-1;
-    scanf("%d",&input);
-    int arr[input];
-    for(int i=0;i<input;i++){
+    int number;
+    scanf("%d",&number);
+    int arr[number];
+    for(int i=0;i<number;i++){
         scanf("%d",&arr[i]);
     }
-    for(int i=0;i<input;i++){
-        for (int j=i+1;j<input;j++){
-            if((i == 0 || arr[i] > arr[i - 1]) && (i == input - 1 || arr[i] > arr[i + 1])){
-                print=arr[i];
+    for(int i=0;i<number;i++){
+        for(int j=i+1;j<number;j++){
+            if(i==0){
+                if(arr[i]>arr[j]){
+                    printf("%d",arr[i]);break;
+                }
+            }
+            else if(arr[i]>arr[j] && arr[i-1]<arr[i]){
+                printf("%d",arr[i]);break;
+            }
+            else if(i==number){
+                printf("%d",-1);
                 break;
             }
         }
     }
-    printf("%d",print);
 }
