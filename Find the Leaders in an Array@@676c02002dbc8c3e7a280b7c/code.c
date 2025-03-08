@@ -10,7 +10,7 @@ void main(){
     int leader=0;
     for(int i=0;i<number;i++){
         for(int j=i+1;j<number;j++){
-            if(arr[i]>=arr[j]){
+            if(arr[i]>=arr[j] || j==number-1 ){
                 leader=1;
             }
             else{
