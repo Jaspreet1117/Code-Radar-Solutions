@@ -18,7 +18,7 @@ void main(){
                 break;
             }
         }
-        if(leader)printf("%d",arr[i]);0-
+        if(leader)printf("%d",arr[i]);
     }
 
 }
