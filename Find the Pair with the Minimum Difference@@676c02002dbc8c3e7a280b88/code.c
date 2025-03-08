@@ -11,6 +11,10 @@ void main(){
         scanf("%d",&arr[i]);
     }
     int diff=INT_MAX;
+    if(number==1){
+        printf("-1");
+        break;
+    }
     for(int i=0;i<number;i++){
         for(int j=i+1;j<number;j++){
             if(diff>abs(arr[i]-arr[j]) && i!=j){
