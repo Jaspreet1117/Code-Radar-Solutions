@@ -20,5 +20,6 @@ void main(){
         }
         if(leader)printf("%d ",arr[i]);
     }
+    printf("%d",arr[number-1]);
 
 }
