@@ -14,7 +14,6 @@ void main(){
             }
             if(i!=0 && arr[i]>arr[j] && arr[i-1]<arr[i]){
                 printf("%d ",arr[i]);
-                i++;
             }
         }
     }
