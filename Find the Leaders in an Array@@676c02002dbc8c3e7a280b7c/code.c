@@ -7,16 +7,14 @@ void main(){
     for(int i=0;i<number;i++){
         scanf("%d",&arr[i]);
     }
-    int leader=0;
+    
     for(int i=0;i<number;i++){
+        int leader=1;
         for(int j=i+1;j<number;j++){
-            if(arr[i]>=arr[j] || i==number-1 ){
-                leader=1;
+            if(arr[i]<arr[j]){
+                leader=0;break;
             }
-            else{
-                leader=0;
-                break;
-            }
+            
         }
         if(leader)printf("%d ",arr[i]);
     }
