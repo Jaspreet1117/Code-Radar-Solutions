@@ -10,7 +10,7 @@ void main(){
     for(int i=0;i<number;i++){
         scanf("%d",&arr[i]);
     }
-    int diif=INT_MAX;
+    int diff=INT_MAX;
     for(int i=0;i<number;i++){
         for(int j=i+1;j<number;j++){
             if(diff>abs(arr[i]-arr[j]) && i!=j){
