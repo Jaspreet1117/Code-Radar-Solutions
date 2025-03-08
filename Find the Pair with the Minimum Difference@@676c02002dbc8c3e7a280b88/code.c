@@ -22,7 +22,7 @@ void main(){
         }
     }
     if(num1>num2)printf("%d %d",num2,num1);
-    else if(num1==num2){printf("-1");}
+    else if(number==1){printf("-1");}
     else{printf("%d %d",num1,num2);}
 
 }
