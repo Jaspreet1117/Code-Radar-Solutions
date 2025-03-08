@@ -17,7 +17,7 @@ void main(){
             else if(arr[i]>arr[j] && arr[i-1]<arr[i]){
                 printf("%d",arr[i]);break;
             }
-            else if(i==number){
+            else if(i==number-1){
                 printf("%d",-1);
                 break;
             }
