@@ -20,6 +20,6 @@ void main(){
             }
         }
     }
-    num1>num2?printf("%d",num2):printf("%d",num1);
+    num1>num2?printf("%d %d",num2,num1):printf("%d %d",num1,num2);
 
 }
