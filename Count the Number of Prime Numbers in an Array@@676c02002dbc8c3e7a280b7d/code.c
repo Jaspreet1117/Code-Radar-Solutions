@@ -4,14 +4,17 @@
 int prime(int x){
     int isprime=1;
     if(x==2){
-        return isprime;
+        return 1;
+    }
+    if(x<2 || x%2==0){
+        return 0;
     }
     for(int j=2;j<x;j++){
         if(x%j==0){
-            isprime=0;
+            return 0;
         }
     }
-    return isprime;
+    return 1;
 
 }
 void main(){
@@ -23,10 +26,10 @@ void main(){
     }
     int count=0;
     for(int i=0;i<number;i++){
-        prime(arr[i]);
-        if(prime){
-            count+=1;
+        if(prime(arr[i])){
+            count++;
         }
+        
 
     }
 printf("%d",count);
