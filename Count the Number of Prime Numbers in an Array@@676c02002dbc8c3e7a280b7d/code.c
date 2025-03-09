@@ -24,7 +24,7 @@ void main(){
     int count=0;
     for(int i=0;i<number;i++){
         prime(arr[i]);
-        if(isprime){
+        if(prime){
             count+=1;
         }
 
