@@ -3,10 +3,10 @@
 #include <stdio.h>
 int prime(int x){
     int isprime=1;
-    if(x=2){
+    if(x==2){
         return isprime;
     }
-    for(int j=2;j<x-1;j++){
+    for(int j=2;j<x;j++){
         if(x%j==0){
             isprime=0;
         }
