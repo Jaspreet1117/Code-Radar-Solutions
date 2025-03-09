@@ -6,7 +6,7 @@ void main(){
     scanf("%d",&number);
     int arr[number];
     for(int i=0;i<number;i++){
-        scanf("%d",&arr[i])
+        scanf("%d",&arr[i]);
     }
     int prime=1;
     int count=0;
@@ -21,7 +21,7 @@ void main(){
               prime=0;
         } 
     }
-    if(prime ||){
+    if(prime|){
         count+=1;
     }
 }
