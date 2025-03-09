@@ -25,5 +25,5 @@ void main(){
         count+=1;
     }
 }
-print("%d",count);
+printf("%d",count);
 }
