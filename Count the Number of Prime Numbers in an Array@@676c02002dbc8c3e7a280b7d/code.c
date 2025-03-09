@@ -1,6 +1,19 @@
 // Your code here...
 //for countign the prime number in an array
 #include <stdio.h>
+void prime(int x){
+    int isprime=1;
+    if(x=2){
+        return isprime;
+    }
+    for(int j=2;j<x-1;j++){
+        if(x%j==0){
+            isprime=0;
+        }
+    }
+    return isprime;
+
+}
 void main(){
     int number;
     scanf("%d",&number);
@@ -8,22 +21,13 @@ void main(){
     for(int i=0;i<number;i++){
         scanf("%d",&arr[i]);
     }
-    int prime=1;
     int count=0;
-    for (int j=0;j<number;j++){
-
-       for(int i=2;i<arr[j]-1;i++){
-        if(arr[j]==2){
-            prime=1;
-
+    for(int i=0;i<number;i++){
+        prime(arr[i]);
+        if(isprime){
+            count+=1;
         }
-        else if(arr[j]%i==0){
-              prime=0;
-        } 
+
     }
-    if(prime){
-        count+=1;
-    }
-}
 printf("%d",count);
 }
