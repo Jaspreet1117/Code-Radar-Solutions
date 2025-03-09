@@ -1,7 +1,7 @@
 // Your code here...
 //for countign the prime number in an array
 #include <stdio.h>
-void prime(int x){
+int prime(int x){
     int isprime=1;
     if(x=2){
         return isprime;
