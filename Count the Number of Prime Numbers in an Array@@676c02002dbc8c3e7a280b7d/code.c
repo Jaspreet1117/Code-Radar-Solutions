@@ -1,28 +1,29 @@
 // Your code here...
-#include<stdio.h>
+//for countign the prime number in an array
+#include <stdio.h>
 void main(){
-    int input,count=0;
+    int number;
+    scanf("%d",&number);
+    int arr[number];
+    for(int i=0;i<number;i++){
+        scanf("%d",&arr[i])
+    }
     int prime=1;
-    
-    scanf("%d",&input);
-    int arr[input];
-    for (int i=0;i<input;i++){
-        scanf("%d",&arr[i]);
-    }
-    for(int i=0;i<input;i++){
-        if(arr[i]<=1){prime=0;
-        }
-        for(int j=2;j<arr[i]-1;j++){
-            if(arr[i]%j==0){
-               if(arr[i]!=2){
-                prime=0;
-            }
-        }}
-        if(prime==1){
-            count+=1;
-        }
-    }
-    
-    printf("%d",count);
+    int count=0;
+    for (int j=0;j<number;j++){
 
+       for(int i=2;i<arr[i]-1;i++){
+        if(arr[j]==2){
+            prime=1;
+
+        }
+        else if(arr[i]%i==0){
+              prime=0;
+        } 
+    }
+    if(prime ||){
+        count+=1;
+    }
+}
+print("%d",count);
 }
