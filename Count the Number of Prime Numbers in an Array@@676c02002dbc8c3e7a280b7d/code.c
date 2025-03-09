@@ -21,7 +21,7 @@ void main(){
               prime=0;
         } 
     }
-    if(prime|){
+    if(prime){
         count+=1;
     }
 }
