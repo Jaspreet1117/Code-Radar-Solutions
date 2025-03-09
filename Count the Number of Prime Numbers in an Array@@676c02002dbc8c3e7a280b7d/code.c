@@ -12,12 +12,12 @@ void main(){
     int count=0;
     for (int j=0;j<number;j++){
 
-       for(int i=2;i<arr[i]-1;i++){
+       for(int i=2;i<arr[j]-1;i++){
         if(arr[j]==2){
             prime=1;
 
         }
-        else if(arr[i]%i==0){
+        else if(arr[j]%i==0){
               prime=0;
         } 
     }
