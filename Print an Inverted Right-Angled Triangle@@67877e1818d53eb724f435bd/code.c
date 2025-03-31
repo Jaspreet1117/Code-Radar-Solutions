@@ -13,5 +13,5 @@ int main(){
     int number;
     scanf("%d",&number);
     InvertedRightAngledTrain(number);
-    return;
+    return 0;
 }
