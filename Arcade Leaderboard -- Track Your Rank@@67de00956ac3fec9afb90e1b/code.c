@@ -9,7 +9,7 @@ void trackPlayerRanks(int *ranked,int n,int *player,int m,int *result){
         }
     }
     int count=0;
-    for(int i=0;i<m;j++){
+    for(int i=0;i<m;i++){
         for(int j=0;j<n;j++){
             
             if(ranked[j]>player[i]){
