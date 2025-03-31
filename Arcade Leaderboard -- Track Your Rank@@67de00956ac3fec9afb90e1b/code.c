@@ -1,8 +1,8 @@
 // Your code here...
 void trackPlayerRanks(int *ranked,int n,int *player,int m,int *result){
     int newd=1;
-    for(int i=1;i<;i++){
-        if(ranked[i]!= rabked[i-1]){
+    for(int i=1;i<n;i++){
+        if(ranked[i]!= ranked[i-1]){
             ranked[newd++]=ranked[i];
         }
     }
