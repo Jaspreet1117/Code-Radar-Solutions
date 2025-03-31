@@ -9,8 +9,10 @@ void trackPlayerRanks(int *ranked,int n,int *player,int m,int *result){
         }
     }
     int check=0;
+    int count=0;
+
         for(int j=0;j<n;j++){
-            int count=0;
+            
             if(ranked[j]>player[check]){
                 count+=1;
                 }
@@ -18,7 +20,7 @@ void trackPlayerRanks(int *ranked,int n,int *player,int m,int *result){
                 break;
 
         }
-        result[check]=count;
+        result[check]=count+1;
         check+=1;
 
     }
