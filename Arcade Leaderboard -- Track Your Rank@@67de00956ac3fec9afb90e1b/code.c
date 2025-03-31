@@ -16,8 +16,9 @@ void trackPlayerRanks(int *ranked,int n,int *player,int m,int *result){
             if(ranked[j]>player[check]){
                 count+=1;
                 }
-
+            else{
                 break;
+            }
 
         }
         result[check]=count+1;
