@@ -22,6 +22,6 @@ void trackPlayerRanks(int *ranked,int n,int *player,int m,int *result){
         }
         result[m]=count+1;}
         
-        check+=1;
+    
 
     }
