@@ -3,10 +3,10 @@
 #include <stdio.h>
 #include <limits.h>
 void main(){
-    int number;
-    scanf("%d",&number);
-    int arr[number];
-    for(int i=0;i<number;i++){
+    int n;
+    scanf("%d",&n);
+    int arr[n];
+    for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
     if(n==1){
