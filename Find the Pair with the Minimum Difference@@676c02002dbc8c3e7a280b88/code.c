@@ -1,28 +1,38 @@
 // Your code here...
-//minmum difference pair
+//minmum difference pa
 #include <stdio.h>
 #include <limits.h>
-#include <stdlib.h>
 void main(){
-    int number,num1=0,num2=0;
+    int number;
     scanf("%d",&number);
     int arr[number];
     for(int i=0;i<number;i++){
         scanf("%d",&arr[i]);
     }
+    if(n==1){
+        printf("%d",-1);
+    }else{
     int diff=INT_MAX;
-    
-    for(int i=0;i<number;i++){
-        for(int j=i+1;j<number;j++){
-            if(diff>abs(arr[i]-arr[j]) && i!=j){
-                diff=abs(arr[i]-arr[j]);
-                num1=arr[i];
-                num2=arr[j];
+    int pair1;
+    int pair2;
+    //sort 
+    for(int i =0;i<n-1;i++){
+        for(int j=0;j<n-1-i;j++){
+            if(arr[j]>arr[j+1]){
+                int temp=arr[j];
+                arr[j]=arr[j+1];
+                arr[j+1]=arr[j];
             }
         }
+
+        int diff = arr[i + 1] - arr[i];
+        if (diff < minDiff) {
+            minDiff = diff;
+            pair1 = arr[i];
+            pair2 = arr[i + 1];
+        }
     }
-    if(num1>num2)printf("%d %d",num2,num1);
-    else if(number==1){printf("-1");}
-    else{printf("%d %d",num1,num2);}
+}
+pair1>pair2?printf("%d %d",pair2,pair1):printf("%d %d",pair1,pair2);
 
 }
