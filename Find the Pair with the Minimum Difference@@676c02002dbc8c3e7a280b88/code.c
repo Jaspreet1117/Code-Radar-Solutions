@@ -12,7 +12,7 @@ void main(){
     if(n==1){
         printf("%d",-1);
     }else{
-    int diff=INT_MAX;
+    int mindiff=INT_MAX;
     int pair1;
     int pair2;
     //sort 
@@ -26,8 +26,8 @@ void main(){
         }
 
         int diff = arr[i + 1] - arr[i];
-        if (diff < minDiff) {
-            minDiff = diff;
+        if (diff < mindiff) {
+            mindiff = diff;
             pair1 = arr[i];
             pair2 = arr[i + 1];
         }
