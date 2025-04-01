@@ -9,11 +9,13 @@ void main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+    int pair1;
+    int pair2;
     if(n==1){
         printf("%d",-1);
     }
-    int pair1;
-    int pair2;else{
+    
+    else{
     int mindiff=INT_MAX;
     
     //sort 
