@@ -28,7 +28,10 @@ void main(){
                 arr[j+1]=temp;
             }
         }
-        int mindiff=INT_MAX;
+        
+    }
+    for(int i=0;i<n-1;i++){
+    int mindiff=INT_MAX;
 
         int diff = arr[i + 1] - arr[i];
         if (diff < mindiff) {
@@ -36,7 +39,7 @@ void main(){
             pair1 = arr[i];
             pair2 = arr[i + 1];
         }
-    }
+}
 
 pair1>pair2?printf("%d %d",pair2,pair1):printf("%d %d",pair1,pair2);}
 
