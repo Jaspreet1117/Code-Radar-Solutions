@@ -7,7 +7,7 @@ void reverse(int *arr,int start,int end){
         arr[end]=temp;
         start++;
         end--;
-    }
+    }}
 
 void rotate(int *arr,int n,int k){
     k=k%n;
@@ -30,7 +30,7 @@ void main(){
     rotate(arr,n,k);
 
 
-}
+
 for(int i=0;i<n;i++){
     printf("%d ",arr[i]);
 } 
