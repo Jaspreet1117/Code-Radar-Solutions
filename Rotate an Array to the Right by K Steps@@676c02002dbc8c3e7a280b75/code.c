@@ -14,7 +14,7 @@ void rotate(int *arr,int n,int k){
     if(k==0){
         return ;
     }
-    reverse(&arr,o,n-1);
+    reverse(&arr,0,n-1);
     reverse(&arr,0,k-1);
     reverse(&arr,k,n-1);
 }
