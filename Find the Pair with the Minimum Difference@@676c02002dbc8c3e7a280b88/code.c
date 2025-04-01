@@ -11,10 +11,11 @@ void main(){
     }
     if(n==1){
         printf("%d",-1);
-    }else{
-    int mindiff=INT_MAX;
+    }
     int pair1;
-    int pair2;
+    int pair2;else{
+    int mindiff=INT_MAX;
+    
     //sort 
     for(int i =0;i<n-1;i++){
         for(int j=0;j<n-1-i;j++){
