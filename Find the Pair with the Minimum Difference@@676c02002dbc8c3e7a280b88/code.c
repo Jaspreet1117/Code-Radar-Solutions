@@ -13,10 +13,11 @@ void main(){
     int pair2;
     if(n==1){
         printf("%d",-1);
+        return;
     }
     
     else{
-    int mindiff=INT_MAX;
+    
     
     //sort 
     for(int i =0;i<n-1;i++){
@@ -27,6 +28,7 @@ void main(){
                 arr[j+1]=temp;
             }
         }
+        int mindiff=INT_MAX;
 
         int diff = arr[i + 1] - arr[i];
         if (diff < mindiff) {
