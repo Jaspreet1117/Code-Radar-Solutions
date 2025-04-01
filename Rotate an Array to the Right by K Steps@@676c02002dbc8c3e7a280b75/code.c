@@ -14,9 +14,9 @@ void rotate(int *arr,int n,int k){
     if(k==0){
         return ;
     }
-    reverse(&arr,0,n-1);
-    reverse(&arr,0,k-1);
-    reverse(&arr,k,n-1);
+    reverse(arr,0,n-1);
+    reverse(arr,0,k-1);
+    reverse(arr,k,n-1);
 }
 
 void main(){
@@ -27,7 +27,7 @@ void main(){
         scanf("%d",&arr[i]);
     }
     scanf("%d",&number);
-    rotate(&arr,n,k);
+    rotate(arr,n,k);
 
 
 }
