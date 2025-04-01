@@ -35,7 +35,7 @@ void main(){
             pair2 = arr[i + 1];
         }
     }
-}
-pair1>pair2?printf("%d %d",pair2,pair1):printf("%d %d",pair1,pair2);
+
+pair1>pair2?printf("%d %d",pair2,pair1):printf("%d %d",pair1,pair2);}
 
 }
