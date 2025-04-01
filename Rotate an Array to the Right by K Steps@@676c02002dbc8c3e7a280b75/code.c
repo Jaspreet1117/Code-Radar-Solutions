@@ -20,10 +20,10 @@ void rotate(int *arr,int n,int k){
 }
 
 void main(){
-    int input,k,n;
-    scanf("%d",&input);
-    int arr[input];
-    for(int i=0;i<input;i++){
+    int k,n;
+    scanf("%d",&n);
+    int arr[n];
+    for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
     scanf("%d",&k);
