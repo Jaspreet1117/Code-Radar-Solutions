@@ -10,7 +10,7 @@ int bubblesort(int *arr,int number){
             }
         }
     }
-    if(n>1){
+    if(number>1){
         return arr[n-1];
     }
     else{
