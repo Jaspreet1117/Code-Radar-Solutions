@@ -10,7 +10,7 @@ int fibonacciSeries(int n){
     else{
        int a=0;
        int b=1;
-       res=a+b;
+       int res=a+b;
        a=b;
        b=res;
        printf("%d ",res); 
