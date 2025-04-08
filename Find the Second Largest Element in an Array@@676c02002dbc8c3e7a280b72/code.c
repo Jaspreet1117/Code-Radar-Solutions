@@ -1,6 +1,6 @@
 // Your code here...
 #include <stdio.h>
-int bubblesort(int *arr,int n){
+int bubblesort(int *arr,int number){
     for(int i=0;i<number-1;i++){
         for(int j=0;j<number-1-i;j++){
             if(arr[j]>arr[j+1]){
@@ -24,7 +24,7 @@ int main(){
     for(int i=0;i<number;i++){
         scanf("%d",&arr[i]);
     }
-    int result=bubblesort(arr,n);
+    int result=bubblesort(arr,number);
     printf("%d",bubblesort);
     
 }
