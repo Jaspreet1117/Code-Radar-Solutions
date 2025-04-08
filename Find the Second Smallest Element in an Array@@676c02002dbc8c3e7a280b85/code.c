@@ -9,9 +9,10 @@ void bubblesort(int *arr,int n){
                 arr[j+1]=temp;
             }
         }
-    }
-    printf("%d",arr[1]);
-}
+    }for(int i=0;i<n;i++){
+        printf("%d",&arr[i]);
+    }}
+    
 int main(){
     int n;
     scanf("%d",&n);
