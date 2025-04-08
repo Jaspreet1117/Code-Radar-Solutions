@@ -6,9 +6,10 @@ int fibonacciSeries(int n){
     else if(i==1){
         printf("1 ");
     }
-    int a=0;
-    int b=1;
+    
     else{
+       int a=0;
+       int b=1;
        res=a+b;
        a=b;
        b=res;
