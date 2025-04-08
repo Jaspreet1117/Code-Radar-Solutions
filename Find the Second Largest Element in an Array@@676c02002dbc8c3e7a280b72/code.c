@@ -25,6 +25,6 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int result=bubblesort(arr,number);
-    printf("%d",bubblesort);
+    printf("%d",result);
     
 }
