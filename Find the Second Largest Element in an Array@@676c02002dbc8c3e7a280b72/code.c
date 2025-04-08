@@ -11,7 +11,7 @@ int bubblesort(int *arr,int number){
         }
     }
     if(number>1){
-        return arr[n-1];
+        return arr[number-1];
     }
     else{
         return -1;
