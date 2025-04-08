@@ -5,9 +5,10 @@ int printPrimesInRange(int a,int b){
             if(i%j==0){
                 break;
             }
-            printf("%d ",i);
+           
         }
         
     }
+     printf("%d ",i);
     return 0;
 }
