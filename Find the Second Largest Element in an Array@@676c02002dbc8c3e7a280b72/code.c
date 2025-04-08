@@ -10,12 +10,14 @@ int bubblesort(int *arr,int number){
             }
         }
     }
-    if(number>1 || arr[number-2]!=arr[number-1]){
+    if(number>1){
         return arr[number-2];
     }
-    else{
+    
+    else if(n==1 || arr[number-1]==arr[number-2]){
         return -1;
     }
+
 }
 int main(){
     int number;
