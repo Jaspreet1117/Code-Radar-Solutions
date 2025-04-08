@@ -13,6 +13,9 @@ void bubblesort(int *arr,int n){
     if(arr[0]<arr[1]){
         printf("%d ",arr[1]);
     }
+    else{
+        printf("-1");
+    }
     }
     
 int main(){
