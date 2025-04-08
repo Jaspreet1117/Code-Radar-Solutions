@@ -1,5 +1,5 @@
 // Your code here...
-int maxGadgetSpend(int *keyboards,int n,int *headsets,int n,int budget){
+int maxGadgetSpend(int *keyboards,int n,int *headsets,int m,int budget){
     int re=0;
     for(int i=0;i<n;i++){
         for(int j=0;j<m;j++){
