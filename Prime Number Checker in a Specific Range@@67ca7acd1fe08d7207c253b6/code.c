@@ -7,11 +7,11 @@ int printPrimesInRange(int a,int b){
                 break;
                 flag=0;
             }
+          
+        }
         if(flag=1){
             printf("%d ",i);
-        }  
         }
-        
     }
     return 0;
 }
