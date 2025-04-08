@@ -10,7 +10,7 @@ void bubblesort(int *arr,int n){
             }
         }
     }
-    if(arr[0]<arr[1]){
+    if(arr[0]<arr[1] && n!=1){
         printf("%d ",arr[1]);
     }
     else{
