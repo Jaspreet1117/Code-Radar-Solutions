@@ -1,5 +1,5 @@
 // Your code here...
-void StringBubbleSort(char *arr[n][100],int n){
+void StringBubbleSort(char **arr,int n){
     char temp[100];
        for(int i=0;i<n-1;i++){
         for(int j=0;j<n-1-i;j++){
@@ -12,7 +12,7 @@ void StringBubbleSort(char *arr[n][100],int n){
        }
        return;
 }
-void printArray(int *arr,int n){
+void printArray(int arr[][100],int n){
     for(int i=0;i<n;i++){
         printf("%s\n",arr[i]);
     }
