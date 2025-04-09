@@ -1,4 +1,6 @@
 // Your code here...
+int strcmp(const char *, const char *);
+char *strcpy(char *, const char *);
 void bubbleSort(char arr[][100],int n){
     char temp[100];
        for(int i=0;i<n-1;i++){
