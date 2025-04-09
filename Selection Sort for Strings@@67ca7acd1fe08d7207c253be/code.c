@@ -1,7 +1,7 @@
 // Your code here..
 int strcmp(const char *str1,const char *str2);
 char *strcpy(char *dest, const char *src);
-void selectionSort(char *arr,int n){
+void selectionSort(char *arr[],int n){
     char temp[100];
     for(int i=0;i<n-1;i++){
         int min=i;
